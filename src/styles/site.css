@@ -1,0 +1,45 @@
+@import "bootstrap/dist/css/bootstrap.css";
+
+@font-face {
+    font-family: "homestead";
+    src: url("../fonts/homestead-regular.ttf");
+}
+
+@font-face {
+    font-family: "oswald";
+    src: url("../fonts/oswald.ttf");
+}
+
+.btn-primary {
+    --bs-btn-bg: #0e8b70;
+    --bs-btn-border-color: #0e8b70;
+    --bs-btn-disabled-bg: #0e8b70;
+    --bs-btn-disabled-border-color: #0e8b70;
+    --bs-btn-hover-bg: #095d4b;
+    --bs-btn-hover-border-color: #095d4b;
+    --bs-btn-active-bg: #095d4b;
+    --bs-btn-active-border-color: #0e8b70;
+
+  }
+
+  .font-homestead {
+    font-family: "homestead";
+  }
+
+  .form-range::-webkit-slider-thumb {
+    background: var(--bs-primary);
+  }
+
+  .form-range::-moz-range-thumb {
+    background: var(--bs-primary);
+  }
+
+  .form-range::-ms-thumb {
+    background: var(--bs-primary);
+  }
+
+  :root {
+    --bs-body-font-family: "oswald";
+    --bs-primary: #0e8b70;
+    --bs-secondary: #fdc80a;
+  }
