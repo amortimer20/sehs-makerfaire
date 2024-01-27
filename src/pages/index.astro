@@ -163,16 +163,35 @@ import Layout from '../layouts/Layout.astro';
 					</a>
 				</div>
 			</div>
+			<!-- Team Sara -->
 			<div class="col-sm-12 col-md-3 mb-3">
 				<div class="card px-0">
-					<a href="#" class="text-decoration-none">
-						<img src="coming-soon-thumbnail.png" alt="coming soon thumbnail" class="card-img-top">
+					<a href="#" class="text-decoration-none" data-bs-toggle="modal" data-bs-target="#saraModal">
+						<img src="/participants/sara-thumbnail.png" alt="coming soon thumbnail" class="card-img-top">
 						<div class="card-body">
 							<h5 class="card-title font-homestead">Team Sara</h5>
 						</div>
 					</a>
 				</div>
 			</div>
+			<div class="modal fade" id="saraModal" tabindex="-1" aria-hidden="true">
+				<div class="modal-dialog">
+				  <div class="modal-content">
+					<div class="modal-header">
+					  <h1 class="modal-title fs-5" id="exampleModalLabel">About Sara</h1>
+					  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+					</div>
+					<div class="modal-body">
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur magni doloremque iusto beatae libero! Itaque explicabo consequatur, expedita est animi molestiae mollitia inventore? Dicta blanditiis temporibus similique numquam id omnis?</p>
+						<video width="100%" src="/participants/sara-video.mp4" controls preload="auto"></video>
+						<div class="d-grid gap-2 mt-3">
+							<a class="btn btn-primary btn-lg" href="https://docs.google.com/forms/d/e/1FAIpQLSf5dvpl1qR4TaAooaDNjcqb4PPfNJy3qwjLpAdMGKi7ppGtHw/viewform?usp=sf_link" target="_blank">Volunteer with Team Sara</a>
+						</div>
+					</div>
+				  </div>
+				</div>
+			</div>
+			<!-- End Team Sara -->
 			<div class="col-sm-12 col-md-3 mb-3">
 				<div class="card px-0">
 					<a href="#" class="text-decoration-none">
