@@ -4,6 +4,9 @@ dist/
 # generated types
 .astro/
 
+# Firebase cache
+.firebase/
+
 # dependencies
 node_modules/
 
