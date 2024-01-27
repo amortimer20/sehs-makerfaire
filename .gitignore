@@ -5,7 +5,8 @@ dist/
 .astro/
 
 # Firebase cache
-.firebase/
+.firebase/hosting.*.cache
+
 
 # dependencies
 node_modules/
