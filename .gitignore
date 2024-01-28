@@ -7,7 +7,6 @@ dist/
 # Firebase cache
 .firebase/hosting.*.cache
 
-
 # dependencies
 node_modules/
 
