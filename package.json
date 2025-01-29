@@ -1,5 +1,5 @@
 {
-  "name": "sehs-makerfaire",
+  "name": "maker-challenge",
   "type": "module",
   "version": "0.0.1",
   "scripts": {
@@ -11,6 +11,6 @@
   },
   "dependencies": {
     "astro": "^4.2.2",
-    "bootstrap": "^5.3.2"
+    "bootstrap": "^5.3.3"
   }
 }
